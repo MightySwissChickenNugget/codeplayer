@@ -1,3 +1,6 @@
+//test
+$(function() { alert('jquery is working') });
+
 //jQuery time
 var parent, ink, d, x, y;
 $("ul li a").click(function(e){
