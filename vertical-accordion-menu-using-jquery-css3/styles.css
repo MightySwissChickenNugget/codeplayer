@@ -1,0 +1,47 @@
+/*custom font for text*/
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+/* Basic Reset */
+* {
+    margin:0; 
+    padding: 0;
+}
+
+body {
+    background: #4EB889;
+	font-family: Nunito, arial, verdana;
+}
+
+#accordion {
+    background: #004050;
+    width: 250px;
+    margin: 100px auto 0 auto;
+    color: white; 
+    /* Some cool shadow and glow effect */
+    box-shadow: 
+        0 5px 15px 1px rgba(0,0,0,0.5), 
+        0 0 200px 1px rgba(255,255,255,0.5);
+}
+
+/*list items*/
+#accordion li{
+    list-style-type:none;
+}
+
+/*links*/
+#accordion ul li li a{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 27px;
+    display: block;
+    padding: 0 15px;
+    /*transition for smooth hover effect*/
+    transition: all 0.15s;
+}
+
+/*hover effect on links*/
+#accordion ul li li a:hover{
+    background: #003545;
+    border-left: 5px solid lightgreen;
+}
